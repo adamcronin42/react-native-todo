@@ -10,6 +10,7 @@ export default class ListItem extends Component {
         <CheckBox
           isChecked={this.props.isChecked}
           leftText={this.props.children}
+          leftTextStyle={styles.leftText}
           style={styles.checkBox}
           onClick={toggleListItem}
         />
@@ -26,5 +27,8 @@ const styles = StyleSheet.create({
   },
   checkBox: {
     flex: 1,
+   },
+   leftText: {
+    fontSize: 20,
   }
 })
