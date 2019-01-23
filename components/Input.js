@@ -25,7 +25,7 @@ export default class Input extends Component {
           blurOnSubmit={false}
           onSubmitEditing={() => this.onSubmit()} 
           onChangeText={(text) => this.setState({text})}
-          placeholder={'Enter an item!'}
+          placeholder={'Enter a task!'}
           value={text}
         />
       </View>
