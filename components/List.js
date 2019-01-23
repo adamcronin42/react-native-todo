@@ -20,8 +20,9 @@ const styles = StyleSheet.create({
   container: {
     margin: 15,
     minHeight: 200,
+    flex: 1,
   },
   item: {
-    paddingBottom: 5
+    paddingBottom: 5,
   }
 })
